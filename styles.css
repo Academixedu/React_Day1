@@ -1,1 +1,18 @@
 /* Apply Related CSS Here  */
+h1 {
+    color: red;
+    text-align: center;
+    
+}
+h{
+    color: rgb(125, 66, 66);
+    
+}
+p {
+    text-align: center;
+}
+    
+body {
+    background-color: #878b8a; 
+  }
+  
