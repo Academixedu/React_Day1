@@ -1,1 +1,78 @@
 /* Apply Related CSS Here  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    border: 1px solid #af2323;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    border: 1px solid #af2323;
+}
+
+.container {
+    padding: 1rem;
+    border-left: 1px solid #af2323;
+    border-right: 1px solid #af2323;
+    height: 82vh;
+}
+
+.container .images {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.container .image-box {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    margin: 0 1rem;
+}
+
+.container .image {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+header button {
+    padding: 0.5rem 1rem;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d02f2f;
+}
+
+header p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
