@@ -1,1 +1,83 @@
-/* Apply Related CSS Here  */
+.ready {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+    input[type="text"]{
+        width: 90%;
+    }
+    .header button{
+    float: right;
+    color: aliceblue;
+    background-color: blue;
+    width: 6%;
+    height: 28px;
+    border-radius: 10px 10px 10px ;
+    
+    
+}
+.header a{
+    color: aliceblue;
+    text-decoration: none;
+}
+ 
+
+.header, .footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.main {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+
+}
+h2 {
+    text-align: center;
+    text-decoration: dashed;
+    text-shadow: 2px 4px 5px rgb(134, 24, 134);
+}
+
+.cm{
+    box-sizing: border-box;
+    float: left;
+    border-color: black;
+    padding: 10px;
+    margin: auto;
+    border: 2px dotted black;
+    margin-top: 50px;
+
+}
+.cm :hover{
+    transform: translateY(-10%);
+    box-shadow: 12px 10px 16px black;
+    transition: 0.3s ease;
+
+
+}
+    
+.dm{box-sizing: border-box;
+    float: right;
+    
+    padding: 10px;
+    border:3px dotted black;
+    margin: auto ;
+    margin-top: 50px;
+}
+.dm :hover{
+    box-shadow: 12px 10px 16px black;
+    transform: translateY(-10%);
+    transition: 0.3s ease;
+
+}
+    
+
+.footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
