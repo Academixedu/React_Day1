@@ -4,7 +4,7 @@
     flex-direction: column;
     height: 100vh; 
 }
-.header {
+header {
     background-color: aqua;
     padding: 20px;
     text-align: center;
