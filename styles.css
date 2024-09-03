@@ -1,1 +1,39 @@
-/* Apply Related CSS Here  */
+.container {
+
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+}
+header {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+h7{
+    background-color: white;
+    padding-right: 150vh;
+    padding-top:5px;
+    padding-bottom: 5px;
+
+}
+footer {
+    background-color: aqua;
+    padding: 20px;
+    text-align: center;
+}
+img{
+    flex: 1;
+    background-color: white;
+    padding: 200px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 50px;
+    height: 200px;
+
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
