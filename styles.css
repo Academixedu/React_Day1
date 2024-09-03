@@ -1,1 +1,60 @@
-/* Apply Related CSS Here  */
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: solid red;
+    
+    
+    
+    }
+    .heading{
+        padding-left: 20px;
+        color: green;
+        text-align: right;
+        font-family: "Roboto", system-ui;
+        
+    }
+    .button{
+    padding-right: 20px;
+    text-align: center;
+    font-family: "Roboto Mono", system-ui;
+    border-radius: 8px;
+    
+    
+    }
+    .image{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      height: auto;
+      border: solid red;
+      
+    }
+    .image1{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        height: 100vh
+        
+        
+    }
+    .image2{
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        height: 50vh;
+        
+        
+        
+      
+    }
+    .footer{
+        color: red;
+        padding: 20px;
+        text-align: center; 
+        border: solid red;
+    
+        
+    }
