@@ -1,1 +1,52 @@
-/* Apply Related CSS Here  */
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+    margin-top: 250px;
+}
+
+h7 {
+    color: skyblue;
+    padding-right: 150vh;
+    background-color: cornsilk;
+    text-align: center;
+}
+
+.main {
+    flex: 1;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+img {
+    height: 100px;
+    float: right;
+    margin-left: 50px;
+    margin-right: 400px;
+    text-align: center;
+    margin-top: 150px;
+}
