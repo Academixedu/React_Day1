@@ -1,1 +1,61 @@
 /* Apply Related CSS Here  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.header {
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.input-name {
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin-right: 10px;
+}
+
+.sign-in-button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+
+.image {
+    border: 2px solid blue;
+    padding: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer {
+    border: 2px solid red;
+    padding: 20px;
+    text-align: center;
+}
