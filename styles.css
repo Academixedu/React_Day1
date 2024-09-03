@@ -1,1 +1,63 @@
 /* Apply Related CSS Here  */
+img {
+    border: 3px solid rgb(0, 0, 0);
+    padding: 20px;
+    margin: 100px;
+    
+}
+
+.container {
+    display: flex ;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    position: relative;  
+}
+ 
+
+.header-signin-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: left;
+    flex: 1;
+}
+
+.signin-btn-container {
+    display: flex;
+    align-items: center;
+}
+
+.signin-btn {
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: lightgray;
+    padding: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.left-image {
+    float: left;
+      
+}
+
+.right-image {
+    float: right;
+}
