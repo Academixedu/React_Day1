@@ -1,1 +1,72 @@
-/* Apply Related CSS Here  */
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: oblique;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  input{
+    width:400px;
+    height: auto;
+  
+  }
+  button{
+    background-color: aqua;
+    border:solid 2px ;
+    box-sizing: border-box;
+    border-radius: 20%;
+   
+  }
+  img {
+   border: 2px solid black;
+   padding: 5px;
+  
+   width:150px;
+   height:190px;
+   
+  }
+  
+  
+  .main img:hover{
+    transition: 2s easy  ;
+    transform:translateY(-12%);
+  
+    
+  }
+  
+  .header {
+    background-color: rgb(243, 212, 212);
+    padding: 20px;
+    text-align: center;
+    border:solid 2px;
+    
+  }
+  
+  .main {
+     flex: 1;
+    background-color: rgb(61, 206, 214);
+    
+    text-align: center;
+    
+    
+  }
+  .boy1{
+    float: left;
+  }
+  .boy2{
+    float: right;
+  }
+  
+  
+  
+  
+  .footer{
+    background-color:plum;
+    padding:5px;
+    text-align: center;
+    margin-top: 250px;
+  }
