@@ -1,1 +1,76 @@
 /* Apply Related CSS Here  */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+.line-above {
+    border-top: 2px solid #333;
+    width: 100%;
+}
+
+.header-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border-bottom: 2px solid #333;
+}
+
+.content-box {
+    display: flex;
+    align-items: center;
+    border: 2px solid #333;
+    padding: 5px 10px;
+    background-color: #ffffff;
+    width: 95%;
+    max-width: 1200px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.name {
+    font-size: 20px;
+    margin-right: auto;
+    line-height: 1.2;
+}
+
+.header-image {
+    width: 100px;
+    height: auto;
+}
+
+.main-image {
+    width: 300px;
+    height: auto;
+}
+
+.main-content {
+    padding: 20px;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #444;
+}
